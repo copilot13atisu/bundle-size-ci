@@ -23,7 +23,7 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: stats
+          name: stats.json
           path: stats.json
           retention-days: 1
 

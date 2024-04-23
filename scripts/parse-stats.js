@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Read the stats file
-const stats = JSON.parse(fs.readFileSync('./build/stats.json', 'utf8'));
+const stats = JSON.parse(fs.readFileSync('./stats.json', 'utf8'));
 
 // Extract the sizes of the assets
 const assetSizes = stats.assets.map(asset => ({
