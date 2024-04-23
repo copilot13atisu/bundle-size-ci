@@ -1,0 +1,19 @@
+#stages:
+#  - build
+#  - send_metrics
+#
+#build:
+#  stage: build
+#  script:
+#    - npm run build
+#  artifacts:
+#    paths:
+#      - stats.json
+#    expire_in: 10 minutes
+#
+#send_metrics:
+#  stage: send_metrics
+#  script:
+#    - node scripts/parse-stats.js
+#  dependencies:
+#    - build

@@ -1,0 +1,2831 @@
+{
+  "hash": "6c7ebf28546594e77437",
+  "version": "5.91.0",
+  "time": 1737,
+  "builtAt": 1713864391831,
+  "publicPath": "auto",
+  "outputPath": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/build",
+  "assetsByChunkName": {
+    "main": [
+      "main.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "main.js",
+      "size": 141213,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 141213
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        792
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 306,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "size": 306
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 146944,
+      "sizes": {
+        "javascript": 146944
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "36992473b4b231bb5150",
+      "childrenByOrder": {},
+      "id": 792,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 131737,
+          "sizes": {
+            "javascript": 131737
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+          "issuerName": "./node_modules/react-dom/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "name": "./src/index.tsx",
+              "id": 900
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+              "name": "./node_modules/react-dom/client.js",
+              "id": 338
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 961
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 551,
+          "issuerId": 961,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+              "module": "./node_modules/react-dom/index.js",
+              "moduleName": "./node_modules/react-dom/index.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+              "resolvedModule": "./node_modules/react-dom/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react-dom.production.min.js",
+              "loc": "35:2-63",
+              "moduleId": 961,
+              "resolvedModuleId": 961
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 13:13-61",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 619,
+          "sizes": {
+            "javascript": 619
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+          "name": "./node_modules/react-dom/client.js",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "issuerName": "./src/index.tsx",
+          "issuerPath": [
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "name": "./src/index.tsx",
+              "id": 900
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 338,
+          "issuerId": 900,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "module": "./src/index.tsx",
+              "moduleName": "./src/index.tsx",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "resolvedModule": "./src/index.tsx",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom/client",
+              "loc": "4:15-42",
+              "moduleId": 900,
+              "resolvedModuleId": 900
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "createRoot",
+            "hydrateRoot"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 3:0-29",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1363,
+          "sizes": {
+            "javascript": 1363
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+          "issuerName": "./node_modules/react-dom/client.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "name": "./src/index.tsx",
+              "id": 900
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+              "name": "./node_modules/react-dom/client.js",
+              "id": 338
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 961,
+          "issuerId": 338,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+              "module": "./node_modules/react-dom/client.js",
+              "moduleName": "./node_modules/react-dom/client.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+              "resolvedModule": "./node_modules/react-dom/client.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react-dom",
+              "loc": "3:8-28",
+              "moduleId": 338,
+              "resolvedModuleId": 338
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "createPortal",
+            "createRoot",
+            "findDOMNode",
+            "flushSync",
+            "hydrate",
+            "hydrateRoot",
+            "render",
+            "unmountComponentAtNode",
+            "unstable_batchedUpdates",
+            "unstable_renderSubtreeIntoContainer",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 34:2-13",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 859,
+          "sizes": {
+            "javascript": 859
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "name": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+          "issuerName": "./node_modules/react/jsx-runtime.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "name": "./src/index.tsx",
+              "id": 900
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+              "name": "./node_modules/react/jsx-runtime.js",
+              "id": 848
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 20,
+          "issuerId": 848,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+              "module": "./node_modules/react/jsx-runtime.js",
+              "moduleName": "./node_modules/react/jsx-runtime.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+              "resolvedModule": "./node_modules/react/jsx-runtime.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react-jsx-runtime.production.min.js",
+              "loc": "4:2-71",
+              "moduleId": 848,
+              "resolvedModuleId": 848
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Fragment",
+            "jsx",
+            "jsxs"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 10:13-244",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 6913,
+          "sizes": {
+            "javascript": 6913
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react.production.min.js",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+          "issuerName": "./node_modules/react/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "name": "./src/index.tsx",
+              "id": 900
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+              "name": "./node_modules/react/jsx-runtime.js",
+              "id": 848
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "name": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "id": 20
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+              "name": "./node_modules/react/index.js",
+              "id": 540
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 287,
+          "issuerId": 540,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+              "module": "./node_modules/react/index.js",
+              "moduleName": "./node_modules/react/index.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+              "resolvedModule": "./node_modules/react/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/react.production.min.js",
+              "loc": "4:2-59",
+              "moduleId": 540,
+              "resolvedModuleId": 540
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Children",
+            "Component",
+            "Fragment",
+            "Profiler",
+            "PureComponent",
+            "StrictMode",
+            "Suspense",
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "cloneElement",
+            "createContext",
+            "createElement",
+            "createFactory",
+            "createRef",
+            "forwardRef",
+            "isValidElement",
+            "lazy",
+            "memo",
+            "startTransition",
+            "unstable_act",
+            "useCallback",
+            "useContext",
+            "useDebugValue",
+            "useDeferredValue",
+            "useEffect",
+            "useId",
+            "useImperativeHandle",
+            "useInsertionEffect",
+            "useLayoutEffect",
+            "useMemo",
+            "useReducer",
+            "useRef",
+            "useState",
+            "useSyncExternalStore",
+            "useTransition",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 10:13-370",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 190,
+          "sizes": {
+            "javascript": 190
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "issuerName": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "name": "./src/index.tsx",
+              "id": 900
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+              "name": "./node_modules/react/jsx-runtime.js",
+              "id": 848
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "name": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "id": 20
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 540,
+          "issuerId": 20,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "13:20-36",
+              "moduleId": 551,
+              "resolvedModuleId": 551
+            },
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "module": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "moduleName": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "resolvedModule": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react",
+              "loc": "10:19-35",
+              "moduleId": 20,
+              "resolvedModuleId": 20
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Children",
+            "Component",
+            "Fragment",
+            "Profiler",
+            "PureComponent",
+            "StrictMode",
+            "Suspense",
+            "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+            "cloneElement",
+            "createContext",
+            "createElement",
+            "createFactory",
+            "createRef",
+            "forwardRef",
+            "isValidElement",
+            "lazy",
+            "memo",
+            "startTransition",
+            "unstable_act",
+            "useCallback",
+            "useContext",
+            "useDebugValue",
+            "useDeferredValue",
+            "useEffect",
+            "useId",
+            "useImperativeHandle",
+            "useInsertionEffect",
+            "useLayoutEffect",
+            "useMemo",
+            "useReducer",
+            "useRef",
+            "useState",
+            "useSyncExternalStore",
+            "useTransition",
+            "version"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:2-60",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 214,
+          "sizes": {
+            "javascript": 214
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+          "name": "./node_modules/react/jsx-runtime.js",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "issuerName": "./src/index.tsx",
+          "issuerPath": [
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "name": "./src/index.tsx",
+              "id": 900
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 848,
+          "issuerId": 900,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/Hello.tsx",
+              "module": "./src/Hello.tsx",
+              "moduleName": "./src/Hello.tsx",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/Hello.tsx",
+              "resolvedModule": "./src/Hello.tsx",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react/jsx-runtime",
+              "loc": "3:20-48",
+              "moduleId": 484,
+              "resolvedModuleId": 484
+            },
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "module": "./src/index.tsx",
+              "moduleName": "./src/index.tsx",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "resolvedModule": "./src/index.tsx",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "react/jsx-runtime",
+              "loc": "3:20-48",
+              "moduleId": 900,
+              "resolvedModuleId": 900
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Fragment",
+            "jsx",
+            "jsxs"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:2-72",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 4235,
+          "sizes": {
+            "javascript": 4235
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+          "issuerName": "./node_modules/scheduler/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "name": "./src/index.tsx",
+              "id": 900
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+              "name": "./node_modules/react-dom/client.js",
+              "id": 338
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 961
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": 551
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+              "name": "./node_modules/scheduler/index.js",
+              "id": 982
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 463,
+          "issuerId": 982,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "13:227-247",
+              "moduleId": 463,
+              "resolvedModuleId": 463
+            },
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:20-40",
+              "moduleId": 463,
+              "resolvedModuleId": 463
+            },
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:85-105",
+              "moduleId": 463,
+              "resolvedModuleId": 463
+            },
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "14:449-469",
+              "moduleId": 463,
+              "resolvedModuleId": 463
+            },
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+              "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "18:56-76",
+              "moduleId": 463,
+              "resolvedModuleId": 463
+            },
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+              "module": "./node_modules/scheduler/index.js",
+              "moduleName": "./node_modules/scheduler/index.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+              "resolvedModule": "./node_modules/scheduler/index.js",
+              "type": "cjs export require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./cjs/scheduler.production.min.js",
+              "loc": "4:2-63",
+              "moduleId": 982,
+              "resolvedModuleId": 982
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 13:227-247",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:20-40",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:85-105",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:449-469",
+            "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 18:56-76",
+            "Statement (IfStatement) with side effects in source code at 11:71-284",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 5
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 198,
+          "sizes": {
+            "javascript": 198
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+          "index": 8,
+          "preOrderIndex": 8,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerPath": [
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "name": "./src/index.tsx",
+              "id": 900
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+              "name": "./node_modules/react-dom/client.js",
+              "id": 338
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+              "name": "./node_modules/react-dom/index.js",
+              "id": 961
+            },
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "id": 551
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 982,
+          "issuerId": 551,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+              "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "scheduler",
+              "loc": "13:40-60",
+              "moduleId": 551,
+              "resolvedModuleId": 551
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "unstable_IdlePriority",
+            "unstable_ImmediatePriority",
+            "unstable_LowPriority",
+            "unstable_NormalPriority",
+            "unstable_Profiling",
+            "unstable_UserBlockingPriority",
+            "unstable_cancelCallback",
+            "unstable_continueExecution",
+            "unstable_forceFrameRate",
+            "unstable_getCurrentPriorityLevel",
+            "unstable_getFirstCallbackNode",
+            "unstable_next",
+            "unstable_now",
+            "unstable_pauseExecution",
+            "unstable_requestPaint",
+            "unstable_runWithPriority",
+            "unstable_scheduleCallback",
+            "unstable_shouldYield",
+            "unstable_wrapCallback"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 4:2-64",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 252,
+          "sizes": {
+            "javascript": 252
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/Hello.tsx",
+          "name": "./src/Hello.tsx",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/Hello.tsx",
+          "index": 10,
+          "preOrderIndex": 10,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "issuerName": "./src/index.tsx",
+          "issuerPath": [
+            {
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "name": "./src/index.tsx",
+              "id": 900
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 484,
+          "issuerId": 900,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "module": "./src/index.tsx",
+              "moduleName": "./src/index.tsx",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+              "resolvedModule": "./src/index.tsx",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./Hello",
+              "loc": "5:14-32",
+              "moduleId": 900,
+              "resolvedModuleId": 900
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__esModule",
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 364,
+          "sizes": {
+            "javascript": 364
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 900,
+          "issuerId": null,
+          "chunks": [
+            792
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.tsx",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [
+            "__esModule"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.tsx"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 364,
+      "sizes": {
+        "javascript": 364
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+      "name": "./src/index.tsx",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 900,
+      "issuerId": null,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.tsx",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": [
+        "__esModule"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 214,
+      "sizes": {
+        "javascript": 214
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+      "name": "./node_modules/react/jsx-runtime.js",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+      "issuerName": "./src/index.tsx",
+      "issuerPath": [
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "id": 900
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 848,
+      "issuerId": 900,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/Hello.tsx",
+          "module": "./src/Hello.tsx",
+          "moduleName": "./src/Hello.tsx",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/Hello.tsx",
+          "resolvedModule": "./src/Hello.tsx",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react/jsx-runtime",
+          "loc": "3:20-48",
+          "moduleId": 484,
+          "resolvedModuleId": 484
+        },
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "module": "./src/index.tsx",
+          "moduleName": "./src/index.tsx",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "resolvedModule": "./src/index.tsx",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react/jsx-runtime",
+          "loc": "3:20-48",
+          "moduleId": 900,
+          "resolvedModuleId": 900
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Fragment",
+        "jsx",
+        "jsxs"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:2-72",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 619,
+      "sizes": {
+        "javascript": 619
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+      "name": "./node_modules/react-dom/client.js",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+      "issuerName": "./src/index.tsx",
+      "issuerPath": [
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "id": 900
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 338,
+      "issuerId": 900,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "module": "./src/index.tsx",
+          "moduleName": "./src/index.tsx",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "resolvedModule": "./src/index.tsx",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom/client",
+          "loc": "4:15-42",
+          "moduleId": 900,
+          "resolvedModuleId": 900
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "createRoot",
+        "hydrateRoot"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 3:0-29",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 252,
+      "sizes": {
+        "javascript": 252
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/Hello.tsx",
+      "name": "./src/Hello.tsx",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/Hello.tsx",
+      "index": 10,
+      "preOrderIndex": 10,
+      "index2": 9,
+      "postOrderIndex": 9,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+      "issuerName": "./src/index.tsx",
+      "issuerPath": [
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "id": 900
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 484,
+      "issuerId": 900,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "module": "./src/index.tsx",
+          "moduleName": "./src/index.tsx",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "resolvedModule": "./src/index.tsx",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./Hello",
+          "loc": "5:14-32",
+          "moduleId": 900,
+          "resolvedModuleId": 900
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__esModule",
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 859,
+      "sizes": {
+        "javascript": 859
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "name": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+      "issuerName": "./node_modules/react/jsx-runtime.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "id": 900
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+          "name": "./node_modules/react/jsx-runtime.js",
+          "id": 848
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 20,
+      "issuerId": 848,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+          "module": "./node_modules/react/jsx-runtime.js",
+          "moduleName": "./node_modules/react/jsx-runtime.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+          "resolvedModule": "./node_modules/react/jsx-runtime.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react-jsx-runtime.production.min.js",
+          "loc": "4:2-71",
+          "moduleId": 848,
+          "resolvedModuleId": 848
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Fragment",
+        "jsx",
+        "jsxs"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 10:13-244",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1363,
+      "sizes": {
+        "javascript": 1363
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 7,
+      "postOrderIndex": 7,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+      "issuerName": "./node_modules/react-dom/client.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "id": 900
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+          "name": "./node_modules/react-dom/client.js",
+          "id": 338
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 961,
+      "issuerId": 338,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+          "module": "./node_modules/react-dom/client.js",
+          "moduleName": "./node_modules/react-dom/client.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+          "resolvedModule": "./node_modules/react-dom/client.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react-dom",
+          "loc": "3:8-28",
+          "moduleId": 338,
+          "resolvedModuleId": 338
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "createPortal",
+        "createRoot",
+        "findDOMNode",
+        "flushSync",
+        "hydrate",
+        "hydrateRoot",
+        "render",
+        "unmountComponentAtNode",
+        "unstable_batchedUpdates",
+        "unstable_renderSubtreeIntoContainer",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 34:2-13",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 190,
+      "sizes": {
+        "javascript": 190
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "issuerName": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "id": 900
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+          "name": "./node_modules/react/jsx-runtime.js",
+          "id": 848
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "name": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "id": 20
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 540,
+      "issuerId": 20,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "13:20-36",
+          "moduleId": 551,
+          "resolvedModuleId": 551
+        },
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "module": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "moduleName": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "resolvedModule": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "react",
+          "loc": "10:19-35",
+          "moduleId": 20,
+          "resolvedModuleId": 20
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Children",
+        "Component",
+        "Fragment",
+        "Profiler",
+        "PureComponent",
+        "StrictMode",
+        "Suspense",
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "cloneElement",
+        "createContext",
+        "createElement",
+        "createFactory",
+        "createRef",
+        "forwardRef",
+        "isValidElement",
+        "lazy",
+        "memo",
+        "startTransition",
+        "unstable_act",
+        "useCallback",
+        "useContext",
+        "useDebugValue",
+        "useDeferredValue",
+        "useEffect",
+        "useId",
+        "useImperativeHandle",
+        "useInsertionEffect",
+        "useLayoutEffect",
+        "useMemo",
+        "useReducer",
+        "useRef",
+        "useState",
+        "useSyncExternalStore",
+        "useTransition",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:2-60",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 131737,
+      "sizes": {
+        "javascript": 131737
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+      "issuerName": "./node_modules/react-dom/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "id": 900
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+          "name": "./node_modules/react-dom/client.js",
+          "id": 338
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 961
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 551,
+      "issuerId": 961,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+          "module": "./node_modules/react-dom/index.js",
+          "moduleName": "./node_modules/react-dom/index.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+          "resolvedModule": "./node_modules/react-dom/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react-dom.production.min.js",
+          "loc": "35:2-63",
+          "moduleId": 961,
+          "resolvedModuleId": 961
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "createPortal",
+        "createRoot",
+        "findDOMNode",
+        "flushSync",
+        "hydrate",
+        "hydrateRoot",
+        "render",
+        "unmountComponentAtNode",
+        "unstable_batchedUpdates",
+        "unstable_renderSubtreeIntoContainer",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 13:13-61",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 6913,
+      "sizes": {
+        "javascript": 6913
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react.production.min.js",
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react.production.min.js",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+      "issuerName": "./node_modules/react/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "id": 900
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/jsx-runtime.js",
+          "name": "./node_modules/react/jsx-runtime.js",
+          "id": 848
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "name": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "id": 20
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js",
+          "id": 540
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 287,
+      "issuerId": 540,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+          "module": "./node_modules/react/index.js",
+          "moduleName": "./node_modules/react/index.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react/index.js",
+          "resolvedModule": "./node_modules/react/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/react.production.min.js",
+          "loc": "4:2-59",
+          "moduleId": 540,
+          "resolvedModuleId": 540
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Children",
+        "Component",
+        "Fragment",
+        "Profiler",
+        "PureComponent",
+        "StrictMode",
+        "Suspense",
+        "__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED",
+        "cloneElement",
+        "createContext",
+        "createElement",
+        "createFactory",
+        "createRef",
+        "forwardRef",
+        "isValidElement",
+        "lazy",
+        "memo",
+        "startTransition",
+        "unstable_act",
+        "useCallback",
+        "useContext",
+        "useDebugValue",
+        "useDeferredValue",
+        "useEffect",
+        "useId",
+        "useImperativeHandle",
+        "useInsertionEffect",
+        "useLayoutEffect",
+        "useMemo",
+        "useReducer",
+        "useRef",
+        "useState",
+        "useSyncExternalStore",
+        "useTransition",
+        "version"
+      ],
+      "optimizationBailout": [
+        "Statement (VariableDeclaration) with side effects in source code at 10:13-370",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 198,
+      "sizes": {
+        "javascript": 198
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+      "index": 8,
+      "preOrderIndex": 8,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "id": 900
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+          "name": "./node_modules/react-dom/client.js",
+          "id": 338
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 961
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": 551
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 982,
+      "issuerId": 551,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "resolvedModule": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "scheduler",
+          "loc": "13:40-60",
+          "moduleId": 551,
+          "resolvedModuleId": 551
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "unstable_IdlePriority",
+        "unstable_ImmediatePriority",
+        "unstable_LowPriority",
+        "unstable_NormalPriority",
+        "unstable_Profiling",
+        "unstable_UserBlockingPriority",
+        "unstable_cancelCallback",
+        "unstable_continueExecution",
+        "unstable_forceFrameRate",
+        "unstable_getCurrentPriorityLevel",
+        "unstable_getFirstCallbackNode",
+        "unstable_next",
+        "unstable_now",
+        "unstable_pauseExecution",
+        "unstable_requestPaint",
+        "unstable_runWithPriority",
+        "unstable_scheduleCallback",
+        "unstable_shouldYield",
+        "unstable_wrapCallback"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 4:2-64",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 4235,
+      "sizes": {
+        "javascript": 4235
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+      "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "index": 9,
+      "preOrderIndex": 9,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+      "issuerName": "./node_modules/scheduler/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/ts-loader/index.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/src/index.tsx",
+          "name": "./src/index.tsx",
+          "id": 900
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/client.js",
+          "name": "./node_modules/react-dom/client.js",
+          "id": 338
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js",
+          "id": 961
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "id": 551
+        },
+        {
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+          "name": "./node_modules/scheduler/index.js",
+          "id": 982
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 463,
+      "issuerId": 982,
+      "chunks": [
+        792
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "13:227-247",
+          "moduleId": 463,
+          "resolvedModuleId": 463
+        },
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:20-40",
+          "moduleId": 463,
+          "resolvedModuleId": 463
+        },
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:85-105",
+          "moduleId": 463,
+          "resolvedModuleId": 463
+        },
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "14:449-469",
+          "moduleId": 463,
+          "resolvedModuleId": 463
+        },
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "module": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "moduleName": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/cjs/scheduler.production.min.js",
+          "resolvedModule": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "18:56-76",
+          "moduleId": 463,
+          "resolvedModuleId": 463
+        },
+        {
+          "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+          "module": "./node_modules/scheduler/index.js",
+          "moduleName": "./node_modules/scheduler/index.js",
+          "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/scheduler/index.js",
+          "resolvedModule": "./node_modules/scheduler/index.js",
+          "type": "cjs export require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./cjs/scheduler.production.min.js",
+          "loc": "4:2-63",
+          "moduleId": 982,
+          "resolvedModuleId": 982
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "unstable_IdlePriority",
+        "unstable_ImmediatePriority",
+        "unstable_LowPriority",
+        "unstable_NormalPriority",
+        "unstable_Profiling",
+        "unstable_UserBlockingPriority",
+        "unstable_cancelCallback",
+        "unstable_continueExecution",
+        "unstable_forceFrameRate",
+        "unstable_getCurrentPriorityLevel",
+        "unstable_getFirstCallbackNode",
+        "unstable_next",
+        "unstable_now",
+        "unstable_pauseExecution",
+        "unstable_requestPaint",
+        "unstable_runWithPriority",
+        "unstable_scheduleCallback",
+        "unstable_shouldYield",
+        "unstable_wrapCallback"
+      ],
+      "optimizationBailout": [
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 13:227-247",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:20-40",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:85-105",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 14:449-469",
+        "CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 18:56-76",
+        "Statement (IfStatement) with side effects in source code at 11:71-284",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        792
+      ],
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 141213
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 141213,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        792
+      ],
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 141213
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 141213,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "621645c504d0f5f0c2de",
+      "version": "5.91.0",
+      "time": 70,
+      "builtAt": 1713864390182,
+      "publicPath": "",
+      "outputPath": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1113,
+          "sizes": {
+            "javascript": 626,
+            "runtime": 487
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!./public/index.html"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "2f83b90ca22f104ccf26",
+          "childrenByOrder": {},
+          "id": 811,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 549,
+              "sizes": {
+                "javascript": 549
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 152,
+              "issuerId": null,
+              "chunks": [
+                811
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+                  "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:107-121",
+                  "moduleId": 152,
+                  "resolvedModuleId": 152
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+                  "loc": "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:107-121",
+                "Statement (VariableDeclaration) with side effects in source code at 1:0-107",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/esm",
+              "layer": null,
+              "size": 77,
+              "sizes": {
+                "javascript": 77
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 682,
+              "issuerId": null,
+              "chunks": [
+                811
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                  "loc": "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": [],
+              "providedExports": [],
+              "optimizationBailout": [
+                "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 88,
+              "sizes": {
+                "runtime": 88
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                811
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 27,
+              "sizes": {
+                "runtime": 27
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/publicPath",
+              "name": "webpack/runtime/publicPath",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                811
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 372,
+              "sizes": {
+                "runtime": 372
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/require chunk loading",
+              "name": "webpack/runtime/require chunk loading",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                811
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+              "request": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 77,
+          "sizes": {
+            "javascript": 77
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 682,
+          "issuerId": null,
+          "chunks": [
+            811
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": [],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-77"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 549,
+          "sizes": {
+            "javascript": 549
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+          "nameForCondition": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 152,
+          "issuerId": null,
+          "chunks": [
+            811
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "resolvedModuleIdentifier": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:107-121",
+              "moduleId": 152,
+              "resolvedModuleId": 152
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+              "loc": "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:107-121",
+            "Statement (VariableDeclaration) with side effects in source code at 1:0-107",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            811
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            811
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 372,
+          "sizes": {
+            "runtime": 372
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            811
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html": {
+          "name": "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+          "chunks": [
+            811
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html": {
+          "name": "HtmlWebpackPlugin_0-/Users/sofronov.k/WebstormProjects/bundle-size-ci/node_modules/html-webpack-plugin/lib/loader.js!/Users/sofronov.k/WebstormProjects/bundle-size-ci/public/index.html",
+          "chunks": [
+            811
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
