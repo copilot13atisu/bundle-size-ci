@@ -42,7 +42,7 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v2
         with:
-          name: stats
+          name: stats.json
 
       - name: Parse stats
         run: node scripts/parse-stats.js
